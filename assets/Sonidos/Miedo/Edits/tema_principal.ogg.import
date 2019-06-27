@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/tema_principal.ogg-547519d56b6a006025d35d76907a5601.oggstr"
+
+[deps]
+
+source_file="res://assets/Sonidos/Miedo/Edits/tema_principal.ogg"
+dest_files=[ "res://.import/tema_principal.ogg-547519d56b6a006025d35d76907a5601.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

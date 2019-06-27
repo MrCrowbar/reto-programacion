@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/Scripts/Bullet_Script.gd" type="Script" id=1]
+[ext_resource path="res://assets/Texturas/light.png" type="Texture" id=2]
+[ext_resource path="res://assets/spot.png" type="Texture" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 14.6542
+
+[node name="Bullet" type="KinematicBody2D"]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+speed = 400
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -1, 0 )
+shape = SubResource( 1 )
+
+[node name="Light2D" type="Light2D" parent="."]
+texture = ExtResource( 2 )
+color = Color( 0.65098, 0.12549, 0.12549, 1 )
+shadow_enabled = true
+shadow_gradient_length = 10.0
+shadow_filter = 3
+shadow_filter_smooth = 15.0
+
+[node name="Sprite" type="Sprite" parent="Light2D"]
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 3 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 15.0
+one_shot = true
+autostart = true

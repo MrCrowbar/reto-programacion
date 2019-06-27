@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/guitarrita_menu1.ogg-342ff17aa4f56b1071a2e0cc00e0bf76.oggstr"
+
+[deps]
+
+source_file="res://assets/Sonidos/Miedo/Edits/guitarrita_menu1.ogg"
+dest_files=[ "res://.import/guitarrita_menu1.ogg-342ff17aa4f56b1071a2e0cc00e0bf76.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
