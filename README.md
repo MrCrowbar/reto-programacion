@@ -1,8 +1,9 @@
-# Godot-Fontpack
-A collection of open fonts ready to use in Godot projects.
+Assets:
+Utilicé texturas que encontré en tutoriales de Godot
+Los sonidos los descargué de https://www.fesliyanstudios.com/
+El font lo descargué de la tienda de assets se llama Open Font Package
 
-Each font folder contains the .tres file for Godot, additional font versions if they available and its license file.
+Juego:
+El jugador tiene que salir del laberinto en el que se encuentra por medio de iluminación y sombras que se generan en el laberinto.
+Se juega con mouse y teclado.
 
-Preview of all fonts in this pack:
-
-![alt text](https://raw.githubusercontent.com/dalton5000/Godot-Fontpack/master/fonts/overview.PNG "Preview Image")
